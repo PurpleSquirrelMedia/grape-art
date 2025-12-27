@@ -25,7 +25,7 @@ import {
     getTokenPrice,
     getCoinGeckoPrice } from '../utils/grapeTools/helpers';
 
-import { Provider, AnchorProvider } from "@project-serum/anchor";
+import { Provider, AnchorProvider } from "@coral-xyz/anchor";
 
 import { SplTokenBonding } from "@strata-foundation/spl-token-bonding";
 import { SplTokenCollective } from "@strata-foundation/spl-token-collective";
